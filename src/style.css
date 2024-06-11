@@ -1,1 +1,51 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: rgb(6, 165, 51);
+}
+
+.centeredContainer {
+  width: 300px;
+  height: 450px;
+  border-radius: 25px;
+  margin: auto;
+  background-color: white;
+}
+
+.cardHeaderContainer {
+  padding-top: 0px;
+  margin-bottom: 10px;
+}
+
+.icon {
+  font-size: 90px;
+  padding-left: 5px;
+}
+
+.cardContentContainer {
+  font-size: 150px;
+  text-align: center;
+}
+
+.cardContentContainer p {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.cardbottomContainer {
+  margin-top: 40px;
+  padding-right: 7px;
+  font-size: 95px;
+  margin-bottom: 15px;
+}
+
+.iconTwo {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2); /* IE6,IE7 */
+  ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)"; /* IE8 */
+  -moz-transform: rotate(-180deg); /* FF3.5+ */
+  -o-transform: rotate(-180deg); /* Opera 10.5 */
+  -webkit-transform: rotate(-180deg); /* Safari 3.1+, Chrome */
+}
+
+#bottomContainer {
+  text-align: center;
+  margin-top: 50px;
+}
